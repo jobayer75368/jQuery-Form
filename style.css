@@ -33,6 +33,11 @@ form {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.479);
 }
 
+::placeholder {
+    color: rgba(255, 255, 255, 0.727);
+    opacity: 1;
+}
+
 h2 {
     text-align: center;
     color: rgb(169, 232, 255);
