@@ -43,13 +43,10 @@ $(document).ready(function () {
 
         if (isValue) {
             alert(` Name: ${$inputNameValue} \n Email: ${$inputEmailValue} \n Subject: ${$inputSubjectValue}\n Message: ${$TextareaValue}`)
-
             $(".name").val("")
             $(".email").val("")
             $(".subject").val("")
             $("textarea").val("")
         }
-
     })
-
-});
+})
